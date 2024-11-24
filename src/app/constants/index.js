@@ -13,56 +13,53 @@ export const EXPERIENCES = [
     year: "November 2024 - Present",
     role: "AI/ML Team Member",
     company: "ULAS HiPR",
-    description: `Working on AI/ML models for ULAS HiPR High-Powered Rocketry.`,
+    description: `Worked on AI models for high-powered rocketry simulations as part of Euroc 25 competition. Used SymPy, NumPy, RocketPy, and other Python libraries for AI models.`,
     technologies: ["Python"],
   },
   {
     year: "April 2023 - September 2024",
     role: "Front-Desk Receptionist",
     company: "Woodenbridge Hotel & Lodge",
-    description: `Handled communications with Microsoft Outlook and multi-line phone systems. Used the HotSoft property management system and TablePath program for reservations. Operated the reception under stressful conditions, handling a variety of tasks such as check-ins, taking payments, answering phone calls and emails, and addressing customer issues.`,
+    description: `Handled communications with Microsoft Outlook and multi-line phone systems. Used the HotSoft property management system and TablePath program for reservations. Operated the reception under stressful conditions, doing a variety of tasks such as check-ins, taking payments, answering phone calls & emails, and handling customer issues.`,
     technologies: ["Microsoft Outlook", "HotSoft", "TablePath"],
   },
   {
     year: "June 2020 - November 2022",
     role: "Front-Desk Receptionist",
     company: "Moneylands Farm",
-    description: `Managed bookings using the Smoobu property management system and Microsoft Excel. Duties involved handling check-ins, taking payments, and addressing resident issues and queries.`,
+    description: `Duties involved handling check-ins, taking payments, and handling resident issues & queries. Managed bookings using Smoobu property management system and Microsoft Excel. Helped with technical issues such as updating the website and resolving issues with the property management system.`,
     technologies: ["Smoobu", "Microsoft Excel"],
   },
-
 ];
+
 
 export const PROJECTS = [
   {
-    title: "Portfolio Website",
+    title: "Personal Portfolio Website",
     image: project1,
-    description:
-      "A simple portfolio website detailing my work experience and projects, which you are currently looking at! Built using ViteJS, ReactJS, and Tailwind CSS.",
-    technologies: ["ReactJS", "Tailwind CSS", ],
+    description: `Developed an interactive website detailing my work experience, skills, and projects. Built using the Next.js framework with various React.js components, styled with Tailwind CSS, and deployed with Vercel.`,
+    technologies: ["React.js", "Next.js", "Tailwind CSS", "Vercel"],
   },
   {
     title: "Full-Stack Graphing & Calculus Calculator Application",
     image: project2,
-    description:
-      "A comprehensive calculator application for graphing and calculus, utilizing Python for back-end calculations and a JavaScript, HTML, and CSS-based interface for an intuitive user experience.",
+    description: `Engineered the back-end using Python, leveraging NumPy and SymPy for complex calculations, and Matplotlib for dynamic graphing. Employed Flask as the framework to manage server-side logic. Designed an intuitive user interface with JavaScript, HTML, and CSS to enhance overall user experience.`,
     technologies: ["Python", "JavaScript", "Flask", "HTML", "CSS", "NumPy", "SymPy", "Matplotlib"],
   },
   {
     title: "Tenant Contract Analyser Web App",
     image: project3,
-    description:
-      "A web application developed during a hackathon to analyze tenant contracts using PDF scraping and Perplexity AI for data processing and display.",
-    technologies: ["Python", "HTML", "CSS", "ReactJS"],
+    description: `Developed as part of a team of five for Hack Trinity’s Gen AI x Law Edition Hackathon. Built a PDF scraping tool to pull text data and analyze via Perplexity AI API to display for users.`,
+    technologies: ["Python", "HTML", "CSS", "Perplexity AI API"],
   },
   {
     title: "System Information Application",
     image: project4,
-    description:
-      "A Java application displaying system information with dynamic graphs and diagrams, developed with Java, JavaFX and CSS.",
-    technologies: ["Java", "JavaFX", "CSS", "IntelliJ"],
+    description: `Designed a user-friendly interface using JavaFX and CSS that displays the user’s system information with a variety of graphs and other interactive components. Utilised a variety of different Java APIs, such as OSHI, to pull system hardware information. Awarded 93% as part of a team of four for CS4421 end-of-block project.`,
+    technologies: ["Java", "JavaFX", "OSHI", "XML / FXML", "CSS", "IntelliJ"],
   },
 ];
+
 
 export const CONTACT = {
   phoneNo: "+353851366304",
