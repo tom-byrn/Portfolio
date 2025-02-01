@@ -35,28 +35,67 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Personal Portfolio Website",
+    title: "Convolutional Neural Network",
     image: project1,
-    description: `Developed an interactive website detailing my work experience, skills, and projects. Built using the Next.js framework with various React.js components, styled with Tailwind CSS, and deployed with Vercel.`,
-    technologies: ["React.js", "Next.js", "Tailwind CSS", "Vercel"],
+    description:
+      "Created a Neural Network to identify hand-written letters based on the MNIST dataset using Java. Utilized Convolutional, Max Pooling, and Fully Connected Layers along with a custom data reader. Achieved 92% accuracy for guessing numbers based on the test dataset without using any external libraries.",
+    technologies: ["Java", "Machine Learning", "Object-Oriented Programming"],
+  },
+  {
+    title: "Employee Wellness & Community Platform",
+    image: project1,
+    description:
+      "Front-end framework for a B2B SaaS platform to organize internal events such as gym classes or hikes and to track and compete in fitness challenges with colleagues. Worked on this as part of a team of four for the NDRC 2024 Startup Sprint Hackathon and won the award for the 'Most Progress' made on the day.",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
+  },
+  {
+    title: "Cheapest Flight Finder Web App",
+    image: project1,
+    description:
+      "Finds the cheapest flight for user’s travel requirements using the Air Scraper API from RapidAPI. Built with ReactJS and Tailwind CSS. Handles authentication with Firebase and allows users to save flights using a Firestore database.",
+    technologies: ["ReactJS", "Vite", "Tailwind CSS", "Firebase", "RapidAPI"],
+  },
+  {
+    title: "Portfolio Website",
+    image: project1,
+    description:
+      "A simple portfolio website detailing my work experience and projects, which you are currently looking at! Built using ViteJS, ReactJS, and Tailwind CSS.",
+    technologies: ["ReactJS", "Tailwind CSS", ],
   },
   {
     title: "Full-Stack Graphing & Calculus Calculator Application",
-    image: project2,
-    description: `Engineered the back-end using Python, leveraging NumPy and SymPy for complex calculations, and Matplotlib for dynamic graphing. Employed Flask as the framework to manage server-side logic. Designed an intuitive user interface with JavaScript, HTML, and CSS to enhance overall user experience.`,
+    image: project1,
+    description:
+      "A comprehensive calculator application for graphing and calculus, utilizing Python for back-end calculations and a JavaScript, HTML, and CSS-based interface for an intuitive user experience.",
     technologies: ["Python", "JavaScript", "Flask", "HTML", "CSS", "NumPy", "SymPy", "Matplotlib"],
   },
   {
     title: "Tenant Contract Analyser Web App",
-    image: project3,
-    description: `Developed as part of a team of five for Hack Trinity’s Gen AI x Law Edition Hackathon. Built a PDF scraping tool to pull text data and analyze via Perplexity AI API to display for users.`,
-    technologies: ["Python", "HTML", "CSS", "Perplexity AI API"],
+    image: project1,
+    description:
+      "A web application developed during at Hack Trinity to analyze tenant contracts using PDF scraping and Perplexity AI for data processing and display.",
+    technologies: ["Python", "HTML", "CSS", "ReactJS"],
+  },
+  {
+    title: "RayCasting Engine",
+    image: project1,
+    description:
+      "RayCater for rendering maps with simple 3D graphics. Used OpenGL for rendering shapes based off the player's position on the map.",
+    technologies: ["C", "OpenGL"],
+  },
+  {
+    title: "Mathematics CLI Application",
+    image: project1,
+    description: 
+      "Mathematics application implementing 10+ algorithms, e.g. Shunting Yard, Gradient Descent, Dimenionality Reduction via PCA, Sieve of Erastothenes, etc. Designed amn interactive CLI menu using ANSI codes, ASCII art, and commands.",
+    technologies: ["Java", "Object-Oriented-Programming"],
   },
   {
     title: "System Information Application",
-    image: project4,
-    description: `Designed a user-friendly interface using JavaFX and CSS that displays the user’s system information with a variety of graphs and other interactive components. Utilised a variety of different Java APIs, such as OSHI, to pull system hardware information. Awarded 93% as part of a team of four for CS4421 end-of-block project.`,
-    technologies: ["Java", "JavaFX", "OSHI", "XML / FXML", "CSS", "IntelliJ"],
+    image: project1,
+    description:
+      "A Java application displaying system information with dynamic graphs and diagrams, developed with Java, JavaFX and CSS.",
+    technologies: ["Java", "JavaFX", "CSS", "IntelliJ"],
   },
 ];
 
