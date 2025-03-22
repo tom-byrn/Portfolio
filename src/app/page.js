@@ -17,7 +17,6 @@ export const App = () => {
       <Navbar />
       <Hero />
       <Technologies />
-      <Experience />
       <Projects />
       <Contact />
     </div>
